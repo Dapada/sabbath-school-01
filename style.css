@@ -14,5 +14,11 @@ body {
 	border-radius: 0;
 	border: 0;
 	background-color: #e6e6fa
+}
 
+#logo-img {
+	background: url('croisadeJanuary.jpg') no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0;
 }
