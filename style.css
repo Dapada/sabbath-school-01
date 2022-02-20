@@ -22,17 +22,33 @@ body {
 	margin: 10px 15px 10px 0;
 }
 
-.navbar-brand a {
+/* navbar-brand a h4  (sabbath school)*/
+.navbar-brand a { 
 	text-decoration: none;
 }
 
+.navbar-brand h4 { 
+	font-weight: bold;
+}
+
+.navbar-brand a:hover, a:focus {
+	color: #fff;
+}
+
+/* navbar-brand p (Gethsemane church)*/
 .navbar-brand p {
-	vertical-align: middle;
 	margin-top: 0;
 	margin-bottom: 0;
 	line-height: .25;
+	font-weight: bold;
+	font-size: .7em;
+	color: #555;
+	/*text-transform: uppercase;*/
 }
 
+.navbar-brand p span {
+	vertical-align: middle;
+}
 
 
 
