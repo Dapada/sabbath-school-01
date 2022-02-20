@@ -10,7 +10,6 @@ body {
 /* Header */
 #header-nav {
 	overflow: hidden;
-	height: 80px;
 	border-radius: 0;
 	border: 0;
 	background-color: #e6e6fa
@@ -23,9 +22,18 @@ body {
 	margin: 10px 15px 10px 0;
 }
 
-.navbar-brand a:hover, .navbar-brand a:focus {
+.navbar-brand a {
 	text-decoration: none;
 }
+
 .navbar-brand p {
-	text-align: uppercase;
+	vertical-align: middle;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .25;
 }
+
+
+
+
+
