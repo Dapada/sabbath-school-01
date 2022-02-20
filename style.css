@@ -4,6 +4,15 @@ body {
 	color: #fff;
 	background-color: #0e1152;
 	font-family: 'Oxygen', sans-serif;
+
 }
 
+/* Header */
+#header-nav {
+	overflow: hidden;
+	height: 16px;
+	border-radius: 0;
+	border: 0;
+	background-color: #e6e6fa
 
+}
