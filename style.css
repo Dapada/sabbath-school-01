@@ -33,24 +33,35 @@ body {
 }
 
 .navbar-brand a:hover, a:focus {
-	color: #fff;
+	color: #555;
 }
 
 /* navbar-brand p (Gethsemane church)*/
 .navbar-brand p {
 	margin-top: 0;
 	margin-bottom: 0;
-	line-height: .25;
-	font-weight: bold;
+	line-height: .10;
+
 	font-size: .7em;
-	color: #555;
+	
 	/*text-transform: uppercase;*/
 }
 
 .navbar-brand p span {
-	vertical-align: middle;
+	color: #1353f2;
+	
+	/*vertical-align: middle;*/
 }
 
+.navbar .offcanvas-body button:hover {
+	color: white;
+	background-color: #1353f2;
+}
+
+.navbar .offcanvas-body button {
+	border-color: #1353f2;
+	color: #1353f2;
+}
 
 
  
