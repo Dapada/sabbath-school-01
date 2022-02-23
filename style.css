@@ -63,10 +63,26 @@ body {
 	color: #1353f2;
 }
 
-
 .navbar .offcanvas-body .nav-item a:hover {
-
 	color: #1353f2;
+}
+
+
+
+.navbar button.navbar-toggler {
+	color: white;
+	border: 1px solid #1353f2;
+
+}
+
+.navbar button.navbar-toggler:hover {
+	background-color: #1353f2;
+}
+
+
+
+	
+
 
 
  
