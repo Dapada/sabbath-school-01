@@ -70,8 +70,15 @@ body {
 
 .navbar .offcanvas-body .nav-item b {
 	font-style: italic;
+	text-decoration: underline;
+	font-size: 15px;
 	color: green;
 }
+
+.navbar .offcanvas-body b a{
+	
+}
+
 
 
 .navbar button.navbar-toggler {
