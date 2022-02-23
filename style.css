@@ -68,6 +68,11 @@ body {
 }
 
 
+.navbar .offcanvas-body .nav-item b {
+	font-style: italic;
+	color: green;
+}
+
 
 .navbar button.navbar-toggler {
 	color: white;
