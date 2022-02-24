@@ -100,7 +100,10 @@ body {
 
 
 
-.container .form__input .form
+.container .form__input .form__button{ /* form */
+	color: #555;
+	font-family: 'Oxygen', sans-serif;
+}
 
 .form {
 	width: 300px;
@@ -108,7 +111,6 @@ body {
 	background: #fff;
 	padding: 20px;
 	margin: 8% auto 0;
-	
 	text-align: center; 
 
 }
