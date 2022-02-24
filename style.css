@@ -5,8 +5,6 @@ body {
 	color: #fff;
 	background-color: #0e1152;
 	font-family: 'Oxygen', sans-serif;
-	height: 90px;
-
 }
 
 /* Header */
@@ -44,7 +42,6 @@ body {
 	margin-top: 0;
 	margin-bottom: 0;
 	line-height: .10;
-
 	font-size: .7em;
 	
 	/*text-transform: uppercase;*/
@@ -99,6 +96,9 @@ body {
 .navbar button.navbar-toggler:hover { /* Menu bar */
 	background-color: #1353f2;
 }
+
+
+
 
 
 
