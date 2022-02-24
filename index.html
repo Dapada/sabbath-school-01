@@ -87,12 +87,29 @@
             <b onclick="document.getElementById('id01').style.display='block'" style="width:auto;"><a class="nav-link "  href="#">Registration</a></b> -->  
 
            
-            <form class="form" id="login"></form>
-            	<h5 class="form title">Login</h5>
-            	<div class="form_message form_message--error">Invalid username/password</div>
+           <form class="form" id="login">
+            	<h5 class="form__title">Login</h5>
+            	<div class="form__message form__message--error">Invalid username/password</div>
             	<div class="form_input-group">
-            		<input class="form_input" type="text" autofocus placeholder="username or email" name="username or email">
+            		<input class="form__input" type="text" autofocus placeholder="username or email" name="username or email">
             	</div>
+            	<div class="form__input--error-message">This is an error message</div>
+
+            	<div class="form_input-group">
+            		<input class="form__input" type="text" autofocus placeholder="password" name="password">
+            	</div>
+            <div class="form__input--error-message"></div>
+            <button class="form__button" type="submit">Continue</button>
+            <p>
+            	<a href="#" class="form__link">Forgot your password?</a>
+            </p>
+            <p>
+            	<a class="form__link" href="./" id="LinkCreateAccount" >Don't have an account? Create account</a>
+            </p>
+
+
+            </form>
+
 
 
 		
@@ -101,6 +118,35 @@
 		</div>
 	</nav>
 </header>
+
+
+
+
+
+
+
+<form class="form" id="login">
+            	<h5 class="form__title">Login</h5>
+            	<div class="form__message form__message--error">Invalid username/password</div>
+            	<div class="form_input-group">
+            		<input class="form__input" type="text" autofocus placeholder="username or email" name="username or email">
+            	</div>
+            	<div class="form__input--error-message">This is an error message</div>
+
+            	<div class="form_input-group">
+            		<input class="form__input" type="text" autofocus placeholder="password" name="password">
+            	</div>
+            <div class="form__input--error-message"></div>
+            <button class="form__button" type="submit">Continue</button>
+            <p>
+            	<a href="#" class="form__link">Forgot your password?</a>
+            </p>
+            <p>
+            	<a class="form__link" href="./" id="LinkCreateAccount" >Don't have an account? Create account</a>
+            </p>
+
+
+            </form>
 
 
 	<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
