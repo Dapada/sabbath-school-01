@@ -35,7 +35,7 @@ body {
 }
 
 .navbar-brand a:hover, a:focus {
-	color: green;
+	color: #1c8adb;
 }
 
 /* navbar-brand p (Gethsemane church)*/
@@ -50,7 +50,7 @@ body {
 }
 
 .navbar-brand p span {
-	color: #1353f2;
+	color: #1c8adb;
 	
 	/*vertical-align: middle;*/
 }
@@ -69,7 +69,7 @@ body {
 
 
 .navbar .offcanvas-body .nav-item a:hover {
-	color: #1353f2;
+	color: #1c8adb;
 }
 
 
@@ -91,12 +91,12 @@ body {
 
 .navbar button.navbar-toggler { /* menu bar */
 	color: white;
-	border: 1px solid #1353f2;
+	border: 1px solid #1c8adb;
 
 }
 
 .navbar button.navbar-toggler:hover { /* Menu bar */
-	background-color: #1353f2;
+	background-color: #1c8adb;
 }
 
 
@@ -110,7 +110,8 @@ body {
 .form { /* form */
 	width: 330px;
 	box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3); 
-	background: rgba(0, 0, 0, 0.001);
+	/*background: rgba(0, 0, 0, 0.001);*/
+	background: #fff;
 	padding: 20px;
 	margin: 8% auto 0;
 	text-align: center; 
@@ -153,15 +154,38 @@ body {
 	width: 100%;
 	padding: 0.75rem;
 	box-sizing: border-box;
-	border-radius: 20px;
+	border-radius: 30px;
 	border: 1px solid #dddddd;
 	outline: none;
-	transition: 0.2s, border-color 0.2s ;
+	transition: 0.2s, border-color 0.2s;
 }
 
+ .form h5 {
+ 	font-size: 30px;
+ 	color: #1c8adb;
+ 	font-weight: bold;
+ }
 
+ .form  span {
+ 	color: #0d0d0d;
+ }
 
+.form hr {
+	color: #dddddd;
+}
 	
+.form .form__button {
+	display: block;
+	width: 100%;
+	border-radius: 30px;
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+	padding: .75rem;
+	cursor: pointer;
+	background-color: #1c8adb;
+
+}	
 
 
 
