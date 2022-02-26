@@ -118,6 +118,10 @@ body {
 	text-align: center; 
 }
 
+.form--hidden {
+	display: none;
+}
+
 .form > *:first-child { /* Login margin top */
 	margin-top: 0;
 }
@@ -162,6 +166,7 @@ body {
 }
 
  .form h5 {
+
  	font-size: 30px;
  	color: #1c8adb;
  	font-weight: bold;
@@ -192,6 +197,10 @@ body {
 	color: #ffffff;
 }
 
+.form .form__button:active {
+	transform: scale(0.98);
+}
+
 .form__input:hover {
 	border-color: #1c8adb;
 	background-color: #ffffff;
@@ -209,11 +218,18 @@ body {
 }
 
 .form .form__text { /* Don't have an account */
-	color: #1c8adb;
+	color: 
 }
 
+.form .form__link {
+	text-decoration: none;
+	cursor: pointer;
+}
 
- 
+.form .form__link:hover {
+	text-decoration: underline;
+}
+
 
 
 
