@@ -218,7 +218,7 @@ body {
 }
 
 .form .form__text { /* Don't have an account */
-	color: 
+	color: #555;
 }
 
 .form .form__link {
