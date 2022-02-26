@@ -90,13 +90,14 @@ body {
 
 
 .navbar button.navbar-toggler { /* menu bar */
-	color: white;
+	color: #fff;
 	border: 1px solid #1c8adb;
 
 }
 
 .navbar button.navbar-toggler:hover { /* Menu bar */
 	background-color: #1c8adb;
+	color: white;
 }
 
 
@@ -117,11 +118,11 @@ body {
 	text-align: center; 
 }
 
-.form > *:first-child { /* form */
+.form > *:first-child { /* Login margin top */
 	margin-top: 0;
 }
 
-.form > *:last-child { /* form */
+.form > *:last-child { /* Don't have account margin bottom */
 	margin-bottom: 0;
 }
 
@@ -142,7 +143,7 @@ body {
 }
 
 .form__title {
-	margin-bottom: 2rem;
+	margin-bottom: 1rem;
 }
 
 .form .form__message {
@@ -171,7 +172,8 @@ body {
  }
 
 .form hr {
-	color: #dddddd;
+	color: #dddddd; 
+	margin-bottom: 2rem;
 }
 	
 .form .form__button {
@@ -184,13 +186,31 @@ body {
 	padding: .75rem;
 	cursor: pointer;
 	background-color: #1c8adb;
-
 }	
 
+.form .form__button:hover {
+	color: #ffffff;
+}
 
+.form__input:hover {
+	border-color: #1c8adb;
+	background-color: #ffffff;
+}
 
+.form__input--error {
+	color: red;
+	border-color: red;
+}
 
+.form__input--error-message {
+	margin-bottom: 1rem;
+	font-size: 0.85rem;
+	color: red;
+}
 
+.form .form__text { /* Don't have an account */
+	color: #1c8adb;
+}
 
 
  
