@@ -194,6 +194,7 @@ body {
 }	
 
 .form .form__button:hover {
+	background-color: #0C4BA6;
 	color: #ffffff;
 }
 
@@ -229,10 +230,6 @@ body {
 .form .form__link:hover {
 	text-decoration: underline;
 }
-
-
-
-
 
 
 
