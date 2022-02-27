@@ -1,5 +1,5 @@
 
-document.addEventListener("DOMContentLoaded", () => {
+/*document.addEventListener("DOMContentLoaded", () => {
   const LoginForm = document.querySelector("#login");
   const createAccountForm = document.querySelector("#createAccount");
 
@@ -17,18 +17,9 @@ document.querySelector("#linkLogin").addEventListener("click", e => {
    createAccountForm.classList.add("form--hidden");
 });  
 
-});
+});*/
 
-
-
-
-
-
-
-
-
-
-
+/*************************************************************/
 
 
 /*// Get the modal
