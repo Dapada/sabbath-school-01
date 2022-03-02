@@ -79,38 +79,46 @@
           	<button class="loginbtn" onclick="document.getElementById('login-form').style.display='block'" style="width:auto;">Login</button>
           	</li>   	 
         </ul>
+
 		
       			</div>
     		</div>
 		</div>
 	</nav>
+
+	<div id="login-form" class="login-page">
+		<div class="form-box">
+			<div class="button-box">
+				<div id="btn"></div>
+				<button type="button" onclick="login()" class="toggle-btn">Log in</button>
+				<button type="button" onclick="login()" class="toggle-btn">Register</button>
+			</div>
+			<form id="login" class="input-group-login">
+				<input type="text" class="input-field" placeholder="Email Id" name="email id" required>
+				<input type="password" class="input-field" placeholder="Enter your Password" name="enter your password" required>
+				<input type="checkbox" class="check-box" name="check-box"><span>Remember Password</span>
+				<button type="submit" class="submit-btn">Log in</button>
+			</form>
+			<form id="register" class="input-group-register">
+				<input type="text" class="input-field" placeholder="First name" name="First name" required>
+				<input type="text" class="input-field" placeholder="Last name" name="Last name" required>
+				<input type="Email" class="input-field" placeholder="Email Address" name="Email Address" required>
+				<input type="password" class="input-field" placeholder="Enter your Password" name="enter your password" required>
+				<input type="password" class="input-field" placeholder="Confirm Password" name="enter your password" required>
+				<input type="checkbox" class="check-box" name="check-box"><span>I agree to the terms and conditions</span>
+
+
+			</form>
+		</div>
+		
+	</div>
+
 </header>
 
 
-<div id="login-form" class="login-page">
-	<div class="form-box">
-		<div class="button-box">
-			<div id="btn"></div>
-			<button type="button" onclick="login()" class="toggle-btn">Log in</button>
-			<button type="button" onclick="register()" class="toggle-btn">Register</button>
-		</div>
-		<form id="login" class="input-group-login">
-			<input type="text" class="input-field" placeholder="Email Id" name="Email Id" required>
-			<input type="password" class="input-field" placeholder="Enter Password" name="Enter Password" required>
-			<input type="checkbox" class="check-box"><span>Remember Password</span>
-			<button type="submit" class="submit-btn">Log in</button>
-		</form>
-		<form id="register" class="input-group-register">
-			<input type="text" class="input-field" placeholder="First name" name="First name" required>
-			<input type="text" class="input-field" placeholder="Last name" name="Last name" required>
-			<input type="email" class="input-field" placeholder="Email Id" name="Email Id" required>
-			<input type="password" class="input-field" placeholder="Enter Password" name="Enter Password" required>
-			<input type="password" class="input-field" placeholder="Confirm Password" name="Confirm Password" required>
-			<input type="checkbox" class="check-box"><span>I agree to the terms and conditions</span>
-			<button type="submit" class="submit-btn">Register</button>
-		</form>
-	</div>
-</div>
+
+
+
 
 
 
@@ -127,6 +135,16 @@
 
 
 
+</body>
+</html>
+
+
+
+
+
+
+
+
 
 <!--<script>
 // Get the modal
@@ -139,13 +157,6 @@ window.onclick = function(event) {
   }
 }
 </script> -->
-
-
-
-
-
-</body>
-</html>
 
 
 
