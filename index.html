@@ -33,14 +33,14 @@
   
 	
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-      <span class="navbar-toggler-icon"></span>
+      	<span class="navbar-toggler-icon"></span>
     </button> 
 
 
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
-        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        	<h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+        			<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 
       </div> 
       <div class="offcanvas-body">
@@ -54,7 +54,7 @@
             <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
               <li><a class="dropdown-item" href="benjamin.html">Benjamin</a></li>
               <li><a class="dropdown-item" href="#">Esther</a></li>
-              <li><a class="dropdown-item" href="#">Naomi</a></li>
+              <li><a class="dropdown-item" href="#">Levi</a></li>
               <li><a class="dropdown-item" href="#">Ruth</a></li>
               <li><a class="dropdown-item" href="#">Enfantine 1</a></li>
               <li><a class="dropdown-item" href="#">Enfantine 2</a></li>
@@ -74,19 +74,11 @@
           	</li>
           	<li class="nav-item">
             	<a class="nav-link" href="#">About</a>
-          	</li>      
+          	</li>  
+          	<li>
+          	<button class="loginbtn" onclick="document.getElementById('login-form').style.display='block'" style="width:auto;">Login</button>
+          	</li>   	 
         </ul>
-        	 <!--<form class="d-flex">
-          		<input class="form-control me-2" type="text" placeholder="Username" name="username">
-          		<input class="form-control me-2" type="text" placeholder="Password" name="psw">
-          		<button class="btn btn-outline-success" type="submit">Login</button>
-        	</form> -->
-
-
-					<!--<li class="nav-item">
-            <b onclick="document.getElementById('id01').style.display='block'" style="width:auto;"><a class="nav-link "  href="#">Registration</a></b> -->  
-
-           
            
 
 
@@ -99,8 +91,23 @@
 </header>
 
 
-
-
+<div id="login-form" class="login-page">
+	<div class="form-box">
+		<div class="button-box">
+			<div id="btn"></div>
+			<button type="button" onclick="login()" class="toggle-btn">Log in</button>
+			<button type="button" onclick="register()" class="toggle-btn">Register</button>
+		</div>
+		<form id="login" class="input-group-login">
+			<input type="text" class="input-field" placeholder="Email Id" name="Email Id" required>
+			<input type="password" class="input-field" placeholder="Enter Password" name="Enter Password" required>
+			<input type="checkbox" class="check-box"><span>Remember Password</span>
+			<button type="submit" class="submit-btn">Log in</button>
+			
+			
+		</form>
+	</div>
+</div>
 
 
 
@@ -136,3 +143,17 @@ window.onclick = function(event) {
 
 </body>
 </html>
+
+
+
+
+<!--<form class="d-flex">
+          		<input class="form-control me-2" type="text" placeholder="Username" name="username">
+          		<input class="form-control me-2" type="text" placeholder="Password" name="psw">
+          		<button class="btn btn-outline-success" type="submit">Login</button>
+        	</form> -->
+
+
+					<!--<li>
+            <button class="loginbtn" onclick="document.getElementById('login-form').style.display='block'" style="width:auto;">Login</button>  
+          </li> -->
