@@ -177,6 +177,52 @@ body {
 }
 
 
+.submit-btn {
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: #f3c693;
+	border: 0;
+	outline: none;border-radius: 30px;
+}
+
+
+.check-box {
+	margin: 30px 10px 34px 0;
+}
+
+
+span {
+	color: #777;
+	font-size: 12px;
+	bottom: 68px;
+	position: absolute;
+}
+
+
+#login {
+	left: 50px;
+}
+
+
+#login input {
+	color: white;
+	font-size: 15px;
+}
+
+
+#register {
+	left: 450px;
+}
+
+
+#register input {
+	color: white;
+	font-size: 15px;
+}
+
 
 
 
