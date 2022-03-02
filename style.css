@@ -2,7 +2,7 @@
 body {
 	box-sizing: border-box;
 	font-size: 16px;
-	color: #fff; 
+	color: #fff;
 	background-color: #0e1152;
 	font-family: 'Oxygen', sans-serif;
 }
@@ -59,39 +59,12 @@ body {
 }
 
 
-.navbar .offcanvas-body button:hover {
-	color: white;
-	background-color: #1353f2;
-}
-
-
-.navbar .offcanvas-body button {
-	border-color: #1353f2;
-	color: #1353f2;
-}
-
-
 
 .navbar .offcanvas-body .nav-item a:hover {
 	color: #1c8adb;
-}
-
-
-.navbar .offcanvas-body .nav-item b { /* Registration */
-	font-style: italic;
 	text-decoration: underline;
-	font-size: 15px;
-	color: green;
 }
 
-
-.navbar .offcanvas-body .nav-item b a{ /* Registration */
-	color: green;
-}
-
-.navbar .offcanvas-body .nav-item b a:hover { /* Registration */
-	color: red;
-}
 
 
 .navbar button.navbar-toggler { /* menu bar */
@@ -104,6 +77,55 @@ body {
 .navbar button.navbar-toggler:hover { /* Menu bar */
 	background-color: #1c8adb;
 	color: white;
+}
+
+
+
+.navbar ul li button:hover {
+	text-decoration: underline;
+	background: transparent;
+}
+
+
+
+.navbar ul li button {
+	color: blue;
+	outline: none;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+	border-radius: 10px;
+	font-size: 16px;
+	margin-top: 6px;
+}
+
+
+/*.navbar .offcanvas-body .nav-item b { /* Registration 
+	font-style: italic;
+	text-decoration: underline;
+	font-size: 15px;
+	color: green;
+}
+
+
+
+
+/*.navbar .offcanvas-body .nav-item b a:hover { /* Registration 
+	color: red;
+}/*
+
+
+
+
+.navbar .offcanvas-body button:hover {
+	color: white;
+	background-color: #1353f2;
+}
+
+
+.navbar .offcanvas-body button {
+	border-color: #1353f2;
+	color: #1353f2;
 }
 
 
