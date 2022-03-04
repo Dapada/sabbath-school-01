@@ -71,6 +71,12 @@ body {
 
 
 
+/*.navbar .offcanvas-body .loginbtn {
+	color: #125ECC;
+}*/
+
+
+
 .navbar button.navbar-toggler { /* menu bar */
 	color: #fff;
 	border: 1px solid #1c8adb;
@@ -118,11 +124,35 @@ body {
 
 
 .login-page {
+	position: relative;
 	max-width: 1000px;
 	width: 100%;
 	background: #fff;
 	padding: 40px 30px;
+	box-shadow: 0 5px 10px rgb(0, 0, 0, 0.2);
+	perspective: 2800px;
 }
+
+
+.login-page .cover {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	height: 100%;
+	width: 50%;
+	z-index: 98;
+	transition: all 1s ease;
+	transform-origin: left;
+	background: #1c8adb;
+	transform-style: preserve-3d;
+}
+
+
+
+.login-page #flip:checked ~ .cover {
+	transform: rotateY(-180deg);
+}
+
 
 
 .login-page form {
@@ -132,11 +162,13 @@ body {
 }
 
 
+
 .login-page .form-content {
 	display: flex;
 	/*align-items: center;*/
 	justify-content: space-between;
 }
+
 
 
 .form-content .login-form,
@@ -195,16 +227,6 @@ form .form-content .input-box {
 
 
 
-
-
-.form-content .input-boxes .input-box input.button {
-	color: red;
-	border-color: #1c8adb;
-	background-color: #ffffff;
-	background: red;
-}
-
-
 .form-content .input-boxes .input-box input {
 	display: block;
 	padding: 0.75rem;
@@ -217,6 +239,55 @@ form .form-content .input-box {
 }
 
 
+
+.form-content .input-boxes .button.input-box input   {
+	color: #fff;
+	background: #1c8adb;
+	cursor: pointer;
+	transition: all 0.4s ease;
+}
+
+
+.form-content .input-boxes .button.input-box input:hover {
+	color: #fff;
+	background: #125ECC;
+}
+
+
+
+.form-content .input-boxes .input-box input:hover {
+	border-color: #1c8adb;
+	background-color: #ffffff;
+}
+
+
+
+form .form-content .text {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+
+form .form-content .text a {
+	text-decoration: none;
+}
+
+
+form .form-content .text a:hover {
+	text-decoration: underline;
+}
+
+
+
+form .form-content label {
+	color: #1c8adb;
+	cursor: pointer;
+}
+
+
+form .form-content label:hover {
+	text-decoration: underline;
+}
 
 
 
