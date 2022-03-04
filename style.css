@@ -2,7 +2,7 @@
 body {
 	box-sizing: border-box;
 	font-size: 16px;
-	color: #fff;
+	/*color: #fff;*/
 	background-color: #0e1152;
 	font-family: 'Oxygen', sans-serif;
 	min-height: 100vh;
@@ -113,9 +113,95 @@ body {
 
 
 #mylogin-form {
-	display: none;
-
+	/*display: none;*/
 }
+
+
+.login-page {
+	max-width: 1000px;
+	width: 100%;
+	background: #fff;
+	padding: 40px 30px;
+}
+
+
+.login-page form {
+	height: 100%;
+	width: 100%;
+	background: #fff;
+}
+
+
+.login-page .form-content {
+	display: flex;
+	/*align-items: center;*/
+	justify-content: space-between;
+}
+
+
+.form-content .login-form,
+.form-content .signup-form {
+	width: calc(100% / 2 - 25px);
+	/*background: #1c8adb;*/
+}
+
+
+form .form-content .title {
+	position: relative;
+	font-size: 24px;
+	font-weight: 500;
+	clear: #333;
+}
+
+
+form .form-content .title:before {
+	position: absolute;
+}
+
+
+form .signup-form .title:before {
+	width: 20px;
+}
+
+
+
+form .form-content .input-boxes {
+	margin-top: 30px;
+}
+
+
+
+form .form-content .input-box {
+	height: 50px;
+	width: 100%;
+	margin: 10px 0;
+	position: relative;
+}
+
+
+
+.form-content .input-box input {
+	height: 100%;
+	width: 100%;
+	padding: 0 10px;
+	transition: all 0.3s ease;
+}
+
+
+/*.form-content .input-box input:focus, 
+.form-content .input-box input:valid{
+	border-color: #1c8adb;	
+}*/
+
+
+form .form-content .button.input-box input:hover {
+	color: blue;
+}
+
+
+
+
+
 
 
 
@@ -163,7 +249,15 @@ body {
 
 
 
-
+/*form .form-content .title:before {
+	left: 0;
+	bottom: 0;
+	content: '';
+	position: absolute;
+	height: 3px;
+	width: 25px;
+	background: #7d2ae8;
+}*/
 
 
 
